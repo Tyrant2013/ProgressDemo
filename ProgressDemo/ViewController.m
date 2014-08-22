@@ -9,7 +9,9 @@
 #import "ViewController.h"
 #import "ProgressView.h"
 
-@interface ViewController ()
+@interface ViewController ()<
+  ProgressViewDelegate
+>
 
 @end
 
@@ -27,6 +29,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)progress:(ProgressView *)progressView didClickInSideWithProgress:(CGFloat)progress
+{
+    
 }
 
 @end

@@ -19,6 +19,7 @@
 		EB11986E19A6F1B0001A9F62 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB11986C19A6F1B0001A9F62 /* MainStoryboard.storyboard */; };
 		EB11987119A6F1B0001A9F62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB11987019A6F1B0001A9F62 /* ViewController.m */; };
 		EB11987D19A6F595001A9F62 /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB11987C19A6F595001A9F62 /* ProgressView.m */; };
+		EB11987F19A70D7E001A9F62 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB11987E19A70D7E001A9F62 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		EB11987019A6F1B0001A9F62 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EB11987B19A6F595001A9F62 /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProgressView.h; path = Progress/ProgressView.h; sourceTree = "<group>"; };
 		EB11987C19A6F595001A9F62 /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProgressView.m; path = Progress/ProgressView.m; sourceTree = "<group>"; };
+		EB11987E19A70D7E001A9F62 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB11987F19A70D7E001A9F62 /* QuartzCore.framework in Frameworks */,
 				EB11985519A6F1B0001A9F62 /* UIKit.framework in Frameworks */,
 				EB11985719A6F1B0001A9F62 /* Foundation.framework in Frameworks */,
 				EB11985919A6F1B0001A9F62 /* CoreGraphics.framework in Frameworks */,
@@ -76,6 +79,7 @@
 		EB11985319A6F1B0001A9F62 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EB11987E19A70D7E001A9F62 /* QuartzCore.framework */,
 				EB11985419A6F1B0001A9F62 /* UIKit.framework */,
 				EB11985619A6F1B0001A9F62 /* Foundation.framework */,
 				EB11985819A6F1B0001A9F62 /* CoreGraphics.framework */,
