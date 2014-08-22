@@ -33,7 +33,7 @@
 
 - (void)progress:(ProgressView *)progressView didClickInSideWithProgress:(CGFloat)progress
 {
-    
+    NSLog(@"didClickInSideWithProgress");
 }
 
 @end
