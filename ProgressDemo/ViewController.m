@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ProgressView.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    ProgressView *progress = [[ProgressView alloc] initWithFrame:(CGRect){50, 50, 100, 100}];
+    [self.view addSubview:progress];
 }
 
 - (void)didReceiveMemoryWarning
