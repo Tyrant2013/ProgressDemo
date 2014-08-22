@@ -16,7 +16,7 @@ But I don't know what to say.
 
 ### image
 下面是图片<br />
-![image](https://github.com/Tyrant2013/ProgressDemo/tree/master/ProgressDemo/Default.png)<br />
+![image](https://github.com/Tyrant2013/ProgressDemo/tree/master/ProgressDemo/Default.png "github")<br />
 下面是图片链接<br />
 [![image]](https://github.com/Tyrant2013/ProgressDemo/tree/master/ProgressDemo/Default.png)
-[image]:https://github.com/Tyrant2013/ProgressDemo/tree/master/ProgressDemo
+[image]:https://github.com/Tyrant2013/ProgressDemo/tree/master/ProgressDemo "github"
