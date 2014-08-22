@@ -18,6 +18,7 @@
 		EB11986B19A6F1B0001A9F62 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB11986A19A6F1B0001A9F62 /* Default-568h@2x.png */; };
 		EB11986E19A6F1B0001A9F62 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB11986C19A6F1B0001A9F62 /* MainStoryboard.storyboard */; };
 		EB11987119A6F1B0001A9F62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB11987019A6F1B0001A9F62 /* ViewController.m */; };
+		EB11987D19A6F595001A9F62 /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB11987C19A6F595001A9F62 /* ProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		EB11986D19A6F1B0001A9F62 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		EB11986F19A6F1B0001A9F62 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EB11987019A6F1B0001A9F62 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB11987B19A6F595001A9F62 /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProgressView.h; path = Progress/ProgressView.h; sourceTree = "<group>"; };
+		EB11987C19A6F595001A9F62 /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProgressView.m; path = Progress/ProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 		EB11985A19A6F1B0001A9F62 /* ProgressDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EB11987A19A6F4C9001A9F62 /* Progress */,
 				EB11986319A6F1B0001A9F62 /* AppDelegate.h */,
 				EB11986419A6F1B0001A9F62 /* AppDelegate.m */,
 				EB11986C19A6F1B0001A9F62 /* MainStoryboard.storyboard */,
@@ -105,6 +109,15 @@
 				EB11986A19A6F1B0001A9F62 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB11987A19A6F4C9001A9F62 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				EB11987B19A6F595001A9F62 /* ProgressView.h */,
+				EB11987C19A6F595001A9F62 /* ProgressView.m */,
+			);
+			name = Progress;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +189,7 @@
 				EB11986119A6F1B0001A9F62 /* main.m in Sources */,
 				EB11986519A6F1B0001A9F62 /* AppDelegate.m in Sources */,
 				EB11987119A6F1B0001A9F62 /* ViewController.m in Sources */,
+				EB11987D19A6F595001A9F62 /* ProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
